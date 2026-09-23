@@ -47,15 +47,17 @@
       root.querySelectorAll('[data-cart-count]').forEach(el => el.textContent = String(cart.reduce((sum, item) => sum + item.quantity, 0)));
     }
     root.querySelectorAll('[data-open-cart]').forEach(button => button.addEventListener('click', () => { renderCart(); openDialog(cartDialog); }));
-    root.querySelector('[data-bag-form]')?.addEventListener('submit', event => {
+    root.querySelectorAll('[data-bag-form]').forEach(form => form.addEventListener('submit', event => {
       event.preventDefault();
       const form = event.currentTarget;
       if (!form.reportValidity()) return;
       const quantity = Number(new FormData(form).get('quantity'));
       const strap = new FormData(form).get('strap');
-      cart.push({ name: `The Arc · Espresso · ${strap} strap`, price: 285, quantity });
+      const name = form.dataset.productName || `The Arc · Espresso · ${strap} strap`;
+      const price = Number(form.dataset.price || 285);
+      cart.push({ name, price, quantity });
       renderCart(); openDialog(cartDialog);
-    });
+    }));
     const kit = root.querySelector('[data-kit-form]');
     function kitPrice() { return 58 + (kit?.elements.grip.checked ? 18 : 0) + (kit?.elements.cable.checked ? 24 : 0); }
     kit?.addEventListener('change', () => { kit.querySelector('[data-kit-total]').textContent = money(kitPrice()); });
@@ -92,14 +94,7 @@
       renderSaved();
       root.querySelector('[data-saved-status]').textContent = `${card.dataset.title} ${saved.has(id) ? 'saved to' : 'removed from'} your shortlist.`;
     }));
-    root.querySelectorAll('[data-filter]').forEach(button => button.addEventListener('click', () => {
-      const filter = button.dataset.filter;
-      root.querySelectorAll('[data-filter]').forEach(b => b.setAttribute('aria-pressed', String(b === button)));
-      cards.forEach(card => card.hidden = filter !== 'all' && !card.dataset.tags.split(' ').includes(filter));
-      root.querySelector('[data-results]').textContent = `${cards.filter(card => !card.hidden).length} costume ideas`;
-    }));
     root.querySelectorAll('[data-open-saved]').forEach(button => button.addEventListener('click', () => openDialog(root.querySelector('[data-saved-dialog]'))));
     if (cards.length) renderSaved();
-    root.querySelectorAll('[data-print]').forEach(button => button.addEventListener('click', () => window.print()));
   });
 })();

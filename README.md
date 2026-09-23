@@ -4,17 +4,17 @@ Three independent portfolio concepts by Jason Cortese. Open `index.html`, or run
 
 | Concept | Format | Builder handoff | Working interactions |
 | --- | --- | --- | --- |
-| VALE — The Arc | Handbag DTC | GemPages | Strap choice, quantity, sample bag, product disclosures |
-| TETHER Fieldnotes | Phone-accessories advertorial | PageFly | Model selection, optional accessories, live total, sample bag |
-| After Dark | Halloween listicle | Shogun | Six looks, category filters, styling recipes, saved shortlist |
+| VALE — The considered collection | Handbag DTC | GemPages | Four products, strap choice, quantities, sample bag, product details |
+| TETHER | Side-by-side guided shopping | PageFly | Model selection, optional accessories, live total, sample bag |
+| After Dark | Vertical shopping listicle | Shogun | Six photorealistic looks, retailer links, styling recipes, saved shortlist |
 
 ## What this demonstrates
 
-Distinct art direction, conversion-focused information hierarchy, responsive CSS, accessible native controls and lightweight JavaScript. Each page has an early CTA and a mobile action bar. The advertorial identifies its brand authorship. No fabricated testimonials, discounts, scarcity, conversion metrics or client outcomes are presented.
+Distinct art direction, conversion-focused information hierarchy, responsive CSS, accessible native controls and lightweight JavaScript. Each page has an early CTA and a mobile action bar. The Halloween shopping guide labels its retailer links as non-affiliate portfolio examples, without claiming paid partnerships. No fabricated testimonials, discounts, scarcity, conversion metrics or client outcomes are presented.
 
 The websites are standalone HTML/CSS/JavaScript. **They were not authored or verified inside the proprietary builder editors.** Builder folders are custom-code handoffs, not native drag-and-drop templates or evidence of platform experience. Suggested portfolio wording: “Three responsive commerce concepts with custom-code handoffs for GemPages, PageFly and Shogun.”
 
-All brands, products, prices and specifications are fictional. Photography was generated for this project; see `image-provenance.md`. Shopping bags are session-only demonstrations. No checkout, customer data collection, payment or Shopify API is connected. Saved Halloween ideas persist locally when browser storage is available.
+The VALE and TETHER brands, products, prices and specifications are fictional. After Dark is a fictional publication; its Etsy category links lead to real retailer pages. No commissions or partnerships are claimed. Photography was generated for this project; see `image-provenance.md`. Shopping bags are session-only demonstrations. No checkout, customer data collection, payment or Shopify API is connected. Saved Halloween ideas persist locally when browser storage is available.
 
 ## Builder setup
 

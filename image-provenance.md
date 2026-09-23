@@ -1,6 +1,6 @@
 # Image provenance
 
-Created for this portfolio with the built-in image-generation tool. These depict fictional products and an invented editorial scene, not real product photographs or client work. Original vector costume illustrations are embedded in `halloween.html`.
+Created for this portfolio with the built-in image-generation tool. These depict fictional products and an invented editorial scene, not real product photographs or client work. The final Halloween page uses photorealistic images. See [additional image prompts and model revisions](additional-image-provenance.md) for the six costume images and three additional handbag images.
 
 ## assets/handbag.png
 
