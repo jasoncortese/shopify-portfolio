@@ -1,0 +1,314 @@
+<style>
+/* Scoped to the portfolio root for page-builder embeds. */
+.sp-root{--ink:#24241f;--paper:#faf8f2;--muted:#68685e;--line:#d8d4ca;--accent:#414d38;--display:Georgia,'Times New Roman',serif;color:var(--ink);background:var(--paper);font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.55;overflow-wrap:break-word;isolation:isolate}
+.sp-root *,.sp-root *::before,.sp-root *::after{box-sizing:border-box}
+.sp-root :where(h1,h2,h3,p,figure){margin:0}
+.sp-root :where(h1,h2,h3){line-height:1.06;text-wrap:balance;font-weight:400}
+.sp-root h1{font-family:var(--display);font-size:clamp(3.25rem,6.5vw,7rem);letter-spacing:-.055em}
+.sp-root h2{font-family:var(--display);font-size:clamp(2.2rem,4vw,4rem);letter-spacing:-.045em}
+.sp-root h3{font-size:1.4rem;letter-spacing:-.025em}
+.sp-root img{display:block;width:100%;height:auto;max-width:100%}
+.sp-root a{color:inherit;text-underline-offset:.25em}
+.sp-root button,.sp-root input,.sp-root select{font:inherit;color:inherit}
+.sp-root button,.sp-root a,.sp-root input,.sp-root select,.sp-root summary{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.sp-root button{cursor:pointer}
+.sp-root :focus-visible{outline:3px solid #086ad8;outline-offset:5px}
+.sp-root [hidden]{display:none!important}
+.sp-root .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.sp-root .skip{position:fixed;left:1rem;top:1rem;z-index:100;background:var(--ink);color:var(--paper);padding:.8rem 1.2rem;transform:translateY(-180%)}
+.sp-root .skip:focus{transform:translateY(0)}
+.sp-root .shell{width:min(100% - 96px,1376px);margin-inline:auto}
+.sp-root .eyebrow{font-size:.72rem;letter-spacing:.15em;text-transform:uppercase;font-weight:700;line-height:1.5}
+.sp-root .muted{color:var(--muted)}
+.sp-root .lede{font-size:clamp(1rem,1.4vw,1.2rem);line-height:1.65;max-width:35rem}
+.sp-root .btn{display:inline-flex;justify-content:center;align-items:center;gap:1.6rem;min-height:52px;padding:.85rem 1.5rem;background:var(--ink);color:var(--paper);border:1px solid var(--ink);text-decoration:none;font-size:.85rem;font-weight:700;letter-spacing:.015em;border-radius:0;transition:background .18s,transform .18s}
+.sp-root .btn:hover{background:var(--accent);transform:translateY(-2px)}
+.sp-root .btn.secondary{background:transparent;color:var(--ink)}
+.sp-root .btn.secondary:hover{background:color-mix(in srgb,var(--ink) 8%,transparent)}
+.sp-root .arrow{font-size:1.4rem;line-height:1}
+.sp-root .text-link{display:inline-flex;gap:.75rem;align-items:center;min-height:44px;font-size:.875rem}
+.sp-root .topline{text-align:center;font-size:.68rem;letter-spacing:.09em;padding:9px 16px;background:var(--accent);color:#fff}
+.sp-root .masthead{min-height:88px;display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid var(--line)}
+.sp-root .wordmark{text-decoration:none;font-size:1.6rem;letter-spacing:.14em;white-space:nowrap;line-height:1}
+.sp-root .wordmark small{font-size:.5rem;display:block;letter-spacing:.28em;margin-top:.45rem}
+.sp-root .nav{display:flex;gap:26px;align-items:center}
+.sp-root .nav a{text-decoration:none;display:inline-flex;align-items:center;min-height:44px;font-size:.78rem}
+.sp-root .nav a:hover{text-decoration:underline}
+.sp-root .icon-btn{border:1px solid var(--line);background:transparent;min-width:48px;min-height:48px;padding:10px;font-size:.8rem}
+.sp-root .section{padding-block:90px;scroll-margin-top:24px}
+.sp-root .section-heading{display:flex;gap:24px;align-items:end;justify-content:space-between;margin-bottom:40px}
+.sp-root .section-heading p{max-width:340px}
+.sp-root .rule{border-block:1px solid var(--line)}
+.sp-root .footer{padding-block:42px;border-top:1px solid var(--line);display:flex;gap:30px;justify-content:space-between;align-items:center;font-size:.75rem}
+.sp-root .footer p{max-width:540px;color:var(--muted)}
+.sp-root .footer a{min-height:44px;display:inline-flex;align-items:center}
+.sp-root .mobile-dock{display:none}
+.sp-root details{border-bottom:1px solid var(--line)}
+.sp-root summary{cursor:pointer;min-height:60px;display:flex;align-items:center;justify-content:space-between;gap:16px;font-size:.9rem;list-style:none}
+.sp-root summary::-webkit-details-marker{display:none}
+.sp-root summary::after{content:'+';font-size:1.5rem}
+.sp-root details[open] summary::after{content:'−'}
+.sp-root details p{padding:0 0 20px;color:var(--muted);font-size:.9rem;line-height:1.7}
+.sp-root dialog{position:fixed;inset:0;border:1px solid var(--line);padding:32px;width:min(480px,calc(100% - 32px));max-height:calc(100dvh - 40px);overflow:auto;background:var(--paper);color:var(--ink);margin:auto;box-shadow:0 24px 100px #0004}
+.sp-root dialog::backdrop{background:#171b24a6;backdrop-filter:blur(4px)}
+.sp-root .dialog-top{display:flex;gap:20px;align-items:center;justify-content:space-between;margin-bottom:28px}
+.sp-root dialog h2{font-size:2rem}
+.sp-root .cart-lines{list-style:none;margin:0;padding:0}
+.sp-root .cart-lines li{border-top:1px solid var(--line);padding:18px 0;display:flex;gap:16px;justify-content:space-between;align-items:center}
+.sp-root .cart-lines small{display:block;color:var(--muted)}
+.sp-root .cart-total{display:flex;justify-content:space-between;margin:22px 0;font-weight:700}
+.sp-root .dialog-note{font-size:.8rem;color:var(--muted);margin-bottom:22px}
+.sp-root .live-note{min-height:1.5em;font-size:.8rem;margin-top:12px}
+.sp-root .field{display:grid;gap:8px;font-size:.8rem;font-weight:700}
+.sp-root select,.sp-root input[type=number]{min-height:48px;background:var(--paper);border:1px solid var(--line);padding:10px 12px;border-radius:0;width:100%}
+.sp-root .field-row{display:grid;grid-template-columns:1fr 100px;gap:16px}
+/* VALE / DTC */
+.sp-root.bags{--paper:#f8f6ef;--ink:#302c26;--muted:#696459;--accent:#4d573f;--line:#d8d2c4}
+.sp-root .bag-hero{display:grid;grid-template-columns:.93fr 1.07fr;min-height:680px}
+.sp-root .bag-hero-copy{padding:82px 65px 60px 0;display:flex;flex-direction:column;align-items:start;justify-content:center}
+.sp-root .bag-hero-copy h1{margin:22px 0 28px;max-width:560px}
+.sp-root .bag-hero-copy .btn{margin-top:32px}
+.sp-root .hero-footnote{font-size:.74rem;color:var(--muted);margin-top:20px}
+.sp-root .bag-hero-photo{position:relative;margin-right:calc((min(100vw,1472px) - 100vw)/2 - 48px);overflow:hidden;background:#d6c9b8;min-width:0}
+.sp-root .bag-hero-photo img{height:100%;object-fit:cover;object-position:center;max-height:780px}
+.sp-root .image-caption{position:absolute;bottom:24px;left:24px;background:#f8f6ef;color:#302c26;font-size:.7rem;letter-spacing:.08em;padding:10px 14px}
+.sp-root .benefit-strip{display:grid;grid-template-columns:repeat(3,1fr);text-align:center;padding-block:24px;font-size:.77rem;letter-spacing:.025em;gap:20px}
+.sp-root .benefit-strip span+span{border-left:1px solid var(--line)}
+.sp-root .bag-manifesto{max-width:940px;text-align:center;margin:auto}
+.sp-root .bag-manifesto h2{margin-top:20px;font-size:clamp(2.3rem,4.6vw,4.4rem)}
+.sp-root .bag-product{display:grid;grid-template-columns:1.05fr .95fr;gap:80px;align-items:start}
+.sp-root .bag-product-photo{background:#e5dfd3;position:relative}
+.sp-root .bag-product-photo img{aspect-ratio:1/1.05;object-fit:cover}
+.sp-root .bag-product-photo figcaption{font-size:.72rem;letter-spacing:.08em;padding:16px 20px;display:flex;justify-content:space-between}
+.sp-root .bag-product-info{padding-top:16px}
+.sp-root .bag-product-info h2{margin:16px 0}
+.sp-root .price{font-size:1.15rem;margin-block:18px}
+.sp-root .bag-product-info .lede{font-size:1rem;margin-bottom:28px}
+.sp-root .swatch{display:inline-flex;gap:10px;align-items:center;font-size:.78rem;margin:0 0 24px}
+.sp-root .swatch::before{content:'';width:22px;height:22px;border-radius:50%;background:#463126;box-shadow:0 0 0 3px var(--paper),0 0 0 4px #463126;margin:4px}
+.sp-root .wide{width:100%}
+.sp-root .product-submit{margin-top:18px}
+.sp-root .bag-product-info details:first-of-type{margin-top:22px;border-top:1px solid var(--line)}
+.sp-root .craft{background:#e9e5da}
+.sp-root .craft-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+.sp-root .craft h2{margin:22px 0}
+.sp-root .craft-points{display:grid;gap:0}
+.sp-root .craft-point{padding:26px 0;border-top:1px solid #c7c1b3;display:grid;grid-template-columns:45px 1fr;gap:18px}
+.sp-root .craft-point p{color:var(--muted);font-size:.9rem;margin-top:10px}
+.sp-root .craft-point>span{font-family:Georgia,serif;font-style:italic;font-size:1.3rem}
+/* TETHER / advertorial */
+.sp-root.phone{--paper:#f6f7f4;--ink:#17271e;--muted:#586259;--accent:#355940;--line:#cbd3c9;--display:Arial,Helvetica,sans-serif}
+.sp-root.phone h1,.sp-root.phone h2{font-weight:700}
+.sp-root.phone .wordmark{font-weight:800;letter-spacing:-.05em;font-size:1.7rem}
+.sp-root.phone .wordmark span{font-size:.6rem;letter-spacing:.12em;font-weight:400;margin-left:12px}
+.sp-root .editorial-label{display:flex;justify-content:space-between;align-items:center;padding-block:20px;font-size:.68rem;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+.sp-root .phone-hero{display:grid;grid-template-columns:1.03fr .97fr;gap:55px;padding-bottom:54px;align-items:center}
+.sp-root .phone-hero h1{font-size:clamp(3rem,5.4vw,5.5rem);line-height:1.02;margin:20px 0 24px;letter-spacing:-.065em}
+.sp-root .phone-hero img{aspect-ratio:1.06;object-fit:cover;border-radius:2px}
+.sp-root .phone-hero .btn{margin-top:28px;border-radius:999px}
+.sp-root .reading-meta{display:flex;align-items:center;gap:12px;margin-top:25px;font-size:.72rem;color:var(--muted)}
+.sp-root .avatar-mark{display:grid;place-items:center;border:1px solid var(--line);border-radius:50%;width:36px;height:36px;font-weight:700;color:var(--ink)}
+.sp-root .phone-intro{background:#dce6d8;padding:32px;display:grid;grid-template-columns:190px 1fr;gap:30px}
+.sp-root .phone-intro p{font-size:1.12rem;max-width:830px}
+.sp-root .article-layout{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:110px}
+.sp-root .story-section{padding:0 0 54px;scroll-margin-top:30px}
+.sp-root .chapter{display:block;font-size:.7rem;letter-spacing:.13em;font-weight:700;margin-bottom:16px;color:var(--accent)}
+.sp-root .story-section h2{font-size:clamp(2rem,3vw,3rem);margin-bottom:22px;letter-spacing:-.045em}
+.sp-root .story-section p{max-width:760px;font-size:1.05rem;line-height:1.8;color:var(--muted);margin-top:18px}
+.sp-root .pullquote{font-size:1.8rem!important;line-height:1.3!important;color:var(--ink)!important;font-weight:700;border-left:4px solid var(--accent);padding:8px 0 8px 28px;margin-block:32px!important}
+.sp-root .article-aside{position:sticky;top:24px;align-self:start}
+.sp-root .toc{border-top:2px solid var(--ink);padding-top:20px;margin-bottom:30px}
+.sp-root .toc a{display:flex;align-items:center;min-height:48px;border-bottom:1px solid var(--line);font-size:.8rem;text-decoration:none}
+.sp-root .toc a:hover{text-decoration:underline}
+.sp-root .aside-card{padding:24px;background:#e6ebe2}
+.sp-root .aside-card h3{font-size:1.75rem;font-weight:700;margin-block:12px}
+.sp-root .aside-card p{font-size:.85rem;margin-bottom:20px}
+.sp-root .comparison{width:100%;border-collapse:collapse;font-size:.86rem;margin-block:28px}
+.sp-root .comparison th,.sp-root .comparison td{padding:16px 12px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+.sp-root .comparison th{font-weight:700}
+.sp-root .comparison caption{text-align:left;margin-bottom:12px;font-weight:700}
+.sp-root .kit-section{background:#e6ebe2}
+.sp-root .kit-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.sp-root .kit-grid img{aspect-ratio:1.2;object-fit:cover}
+.sp-root .kit-grid h2{margin:20px 0;font-size:clamp(2.2rem,3.5vw,3.5rem)}
+.sp-root .kit-grid .field{margin:24px 0}
+.sp-root .check-option{display:flex;gap:14px;align-items:center;border-top:1px solid #b8c3b5;min-height:60px;padding-block:12px;cursor:pointer;font-size:.9rem}
+.sp-root input[type=checkbox]{width:22px;height:22px;accent-color:var(--accent);flex:none}
+.sp-root .check-option span{flex:1}
+.sp-root .kit-price{display:flex;justify-content:space-between;margin:24px 0;font-size:1.3rem;font-weight:700}
+/* AFTER DARK / listicle */
+.sp-root.costumes{--paper:#f0edff;--ink:#21182d;--muted:#655975;--accent:#572aa4;--line:#c9c0d7;--display:Georgia,'Times New Roman',serif}
+.sp-root.costumes .masthead{border-color:#50435e;color:#f0edff}
+.sp-root .dark-header{background:#21182d}
+.sp-root.costumes .wordmark{font-size:1.65rem;letter-spacing:-.02em;font-family:Georgia,serif;font-style:italic}
+.sp-root.costumes .wordmark strong{font-family:Arial,sans-serif;font-style:normal;font-size:.7rem;letter-spacing:.1em}
+.sp-root.costumes .icon-btn{border-color:#746281;color:#f0edff}
+.sp-root .costume-hero{display:grid;grid-template-columns:.85fr 1.15fr;gap:60px;padding-top:58px;padding-bottom:65px;color:#f0edff;align-items:center}
+.sp-root .costume-hero h1{font-size:clamp(3.3rem,6.1vw,6.1rem);margin:20px 0 26px}
+.sp-root .costume-hero h1 em{color:#d6f09c}
+.sp-root .costume-hero .lede{color:#d4c9df}
+.sp-root .costume-hero .btn{margin-top:28px;background:#d6f09c;border-color:#d6f09c;color:#21182d}
+.sp-root .costume-hero figure{position:relative}
+.sp-root .costume-hero img{aspect-ratio:1.05;object-fit:cover;border-radius:46% 46% 2px 2px}
+.sp-root .roundel{position:absolute;right:-18px;bottom:20px;width:100px;height:100px;display:grid;align-content:center;text-align:center;border-radius:50%;background:#d6f09c;color:#21182d;transform:rotate(10deg);font-size:.68rem;letter-spacing:.07em}
+.sp-root .roundel strong{font-family:Georgia,serif;font-size:2rem;line-height:1.1}
+.sp-root .costume-intro{max-width:810px;margin:auto;text-align:center;padding-top:60px;padding-bottom:40px}
+.sp-root .costume-intro p{margin:20px auto 0;color:var(--muted);max-width:620px}
+.sp-root .filter-bar{border-block:1px solid var(--line);padding:20px 0;display:flex;justify-content:space-between;gap:20px;align-items:center;margin-bottom:38px}
+.sp-root .filter-buttons{display:flex;flex-wrap:wrap;gap:8px}
+.sp-root .filter{border:1px solid var(--line);min-height:44px;padding:10px 18px;border-radius:999px;background:transparent;font-size:.8rem}
+.sp-root .filter[aria-pressed=true]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.sp-root .results-count{white-space:nowrap;font-size:.8rem;color:var(--muted)}
+.sp-root .looks-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:42px 28px}
+.sp-root .look-art{position:relative;background:var(--card-bg,#dbd2ed);aspect-ratio:1.2;overflow:hidden;display:grid;place-items:center}
+.sp-root .look-art svg{width:76%;height:88%;filter:drop-shadow(0 15px 10px #27153922)}
+.sp-root .look-number{position:absolute;left:18px;top:14px;font-family:Georgia,serif;font-size:2rem;z-index:1}
+.sp-root .look-card h3{font-family:Georgia,serif;font-size:1.9rem;margin:18px 0 12px}
+.sp-root .look-card p{color:var(--muted);font-size:.88rem;min-height:2.9em}
+.sp-root .look-meta{display:flex;justify-content:space-between;border-block:1px solid var(--line);padding:10px 0;margin:18px 0;font-size:.7rem;text-transform:uppercase;letter-spacing:.06em}
+.sp-root .look-actions{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.sp-root .look-actions .save{min-width:48px;min-height:48px;border:1px solid var(--line);background:transparent;border-radius:50%;font-size:1.1rem}
+.sp-root .look-actions .save[aria-pressed=true]{background:var(--ink);color:var(--paper)}
+.sp-root .look-card details{border:0;margin-top:8px}
+.sp-root .look-card details ul{padding-left:20px;font-size:.88rem;color:var(--muted);line-height:1.85;margin-top:0}
+.sp-root .night-note{background:#d6f09c;padding:45px;display:grid;grid-template-columns:1fr 1fr;gap:50px;margin-block:70px 20px}
+.sp-root .night-note h2{font-size:2.5rem}
+.sp-root .night-note p{font-size:1rem;line-height:1.8}
+.sp-root .saved-list{padding-left:24px}
+.sp-root .saved-list li{padding:8px 0}
+.sp-root .collection-hero{padding-block:85px}
+.sp-root .collection-hero h1{max-width:850px;margin:20px 0 30px}
+.sp-root .portfolio-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;padding-bottom:80px}
+.sp-root .portfolio-card{text-decoration:none;border:1px solid var(--line);padding:24px;display:flex;flex-direction:column;gap:18px}
+.sp-root .portfolio-card img{aspect-ratio:1.2;object-fit:cover}
+.sp-root .portfolio-card h2{font-size:2rem}
+.sp-root .portfolio-card p{color:var(--muted);font-size:.9rem}
+@media(min-width:1472px){.sp-root .bag-hero-photo{margin-right:calc((1472px - 100vw)/2 - 48px)}}
+@media(max-width:1050px){.sp-root .shell{width:calc(100% - 56px)}.sp-root .bag-hero-copy{padding:50px 35px 50px 0}.sp-root .bag-hero{min-height:560px}.sp-root .bag-hero-photo{margin-right:-28px}.sp-root .bag-product,.sp-root .craft-grid,.sp-root .kit-grid{gap:40px}.sp-root .article-layout{gap:45px;grid-template-columns:minmax(0,1fr) 280px}.sp-root .phone-hero,.sp-root .costume-hero{gap:32px}.sp-root .nav{gap:18px}.sp-root .looks-grid{gap:32px 20px}}
+@media(max-width:760px){.sp-root .shell{width:calc(100% - 40px)}.sp-root h1{font-size:clamp(3rem,11vw,4.8rem)}.sp-root .masthead{min-height:76px;gap:12px}.sp-root .wordmark{font-size:1.4rem}.sp-root .nav{display:none}.sp-root .section{padding-block:56px}.sp-root .section-heading{display:block;margin-bottom:28px}.sp-root .section-heading p{margin-top:18px}.sp-root .bag-hero{display:flex;flex-direction:column}.sp-root .bag-hero-copy{padding:36px 0 30px}.sp-root .bag-hero-copy h1{margin:14px 0 18px;max-width:540px}.sp-root .bag-hero-copy .btn{margin-top:22px}.sp-root .bag-hero-photo{margin-inline:-20px;max-height:none}.sp-root .bag-hero-photo img{aspect-ratio:1.3;object-position:center 55%;max-height:520px}.sp-root .hero-footnote{margin-top:12px}.sp-root .benefit-strip{gap:12px;font-size:.66rem;line-height:1.6;padding-block:18px}.sp-root .benefit-strip span+span{padding-left:12px}.sp-root .bag-product,.sp-root .craft-grid,.sp-root .kit-grid{grid-template-columns:1fr;gap:30px}.sp-root .bag-product-photo img{aspect-ratio:1.2}.sp-root .bag-product-info{padding-top:0}.sp-root .craft-point{padding:20px 0}.sp-root .footer{align-items:start;flex-direction:column;gap:15px;padding-bottom:110px}.sp-root .mobile-dock{position:fixed;bottom:0;left:0;right:0;z-index:10;display:flex;justify-content:space-between;gap:16px;align-items:center;background:var(--paper);border-top:1px solid var(--line);padding:12px 20px calc(12px + env(safe-area-inset-bottom));box-shadow:0 -4px 18px #00000008}.sp-root .mobile-dock .btn{min-height:46px;font-size:.78rem;padding:.6rem 1rem}.sp-root .mobile-dock>span{font-size:.75rem;line-height:1.4}.sp-root .mobile-dock strong{display:block;font-size:.88rem}.sp-root .editorial-label{font-size:.58rem;gap:16px}.sp-root .phone-hero,.sp-root .costume-hero{grid-template-columns:1fr;gap:30px}.sp-root .phone-hero h1{font-size:clamp(2.9rem,10vw,4.7rem);margin-top:8px}.sp-root .phone-hero img{aspect-ratio:1.35}.sp-root .phone-intro{grid-template-columns:1fr;gap:15px;padding:26px}.sp-root .article-layout{grid-template-columns:1fr;gap:0}.sp-root .article-aside{position:static;grid-row:1;margin-bottom:35px}.sp-root .article-aside .aside-card{display:none}.sp-root .toc{margin:0}.sp-root .toc a{display:inline-flex;min-height:44px;margin-right:20px;border:0;text-decoration:underline}.sp-root .story-section{padding-bottom:40px}.sp-root .comparison th,.sp-root .comparison td{padding:12px 8px;font-size:.78rem}.sp-root .kit-grid{gap:32px}.sp-root .costume-hero{padding-top:32px;padding-bottom:40px}.sp-root .costume-hero h1{font-size:clamp(3.4rem,12vw,5rem)}.sp-root .costume-hero img{aspect-ratio:1.2;border-radius:38% 38% 2px 2px}.sp-root .roundel{right:8px;width:80px;height:80px;font-size:.6rem}.sp-root .roundel strong{font-size:1.6rem}.sp-root .costume-intro{padding-top:40px;padding-bottom:25px}.sp-root .looks-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 18px}.sp-root .look-card h3{font-size:1.55rem}.sp-root .look-number{font-size:1.5rem;left:12px;top:10px}.sp-root .look-meta{font-size:.6rem;gap:10px}.sp-root .look-card p{font-size:.8rem}.sp-root .filter-bar{align-items:start;flex-direction:column;gap:12px}.sp-root .filter{padding:9px 14px;font-size:.75rem}.sp-root .night-note{grid-template-columns:1fr;gap:20px;padding:28px;margin-top:45px}.sp-root .portfolio-grid{grid-template-columns:1fr}.sp-root .collection-hero{padding-block:45px}.sp-root dialog{padding:24px}}
+@media(max-width:390px){.sp-root .looks-grid{grid-template-columns:1fr}.sp-root.phone .wordmark span{display:block;margin:8px 0 0}.sp-root .filter-buttons{gap:6px}.sp-root .filter{padding-inline:12px}.sp-root .benefit-strip{font-size:.6rem}.sp-root .topline{font-size:.6rem}}
+@media(prefers-reduced-motion:reduce){.sp-root *,.sp-root *::before,.sp-root *::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+@media(forced-colors:active){.sp-root .btn,.sp-root .filter,.sp-root .icon-btn{border:1px solid ButtonText}.sp-root .swatch::before{border:2px solid CanvasText}.sp-root .filter[aria-pressed=true]{outline:2px solid Highlight}}
+@media print{.sp-root .mobile-dock,.sp-root .masthead button,.sp-root .skip{display:none}.sp-root .footer{padding-bottom:20px}.sp-root .section{padding-block:25px}}
+
+</style>
+<div class="sp-root phone" data-page="phone-accessories">
+<a class="skip" href="#tether-main">Skip to content</a>
+<header class="shell masthead"><a class="wordmark" href="#tether-main">TETHER<span>FIELDNOTES</span></a><nav class="nav" aria-label="Main navigation"><a href="#tether-story">The everyday edit</a><a href="#tether-fit">Find your fit</a><a href="#tether-kit">Build your kit</a></nav><button class="icon-btn" data-open-cart type="button" aria-label="Open sample shopping bag">Bag (<span data-cart-count>0</span>)</button></header>
+<main id="tether-main" tabindex="-1"><div class="shell editorial-label"><span>Brand story · Written by Tether</span><span>Everyday carry / Issue 01</span></div>
+<article><header class="shell phone-hero"><div><p class="eyebrow">The case for a simpler setup</p><h1>Your phone.<br>Less baggage.</h1><p class="lede">A case, a grip, a cable. Here’s how to build an everyday phone kit where every piece earns its place.</p><a class="btn" href="#tether-kit">Find your everyday kit <span class="arrow" aria-hidden="true">↗</span></a><div class="reading-meta"><span class="avatar-mark" aria-hidden="true">T.</span><span>Tether editorial studio<br>4-minute read · A portfolio brand story</span></div></div><img src="assets/phone.png" alt="Olive phone case, circular grip and braided USB-C cable arranged on grey stone blocks" width="1448" height="1086" fetchpriority="high"></header>
+<div class="shell phone-intro"><p class="eyebrow">The short version</p><p>Start with the right fit. Add what helps your routine. Leave the rest behind. A cohesive kit doesn’t need to be complicated.</p></div>
+<div class="shell section article-layout"><div><section class="story-section" id="tether-story" aria-labelledby="tether-story-title"><span class="chapter">01 / START WITH THE EVERYDAY</span><h2 id="tether-story-title">The best accessory is the one you actually use.</h2><p>The phone is already coming with you. The question is what deserves to come along. A useful setup starts with the moments you repeat: checking the map, taking a photo, answering a message, charging at your desk.</p><p>That is the idea behind the Tether concept. One muted palette. Three straightforward pieces. A case for your device, an optional grip for the way you hold it, and a cable for when you stop moving.</p><p class="pullquote">Less to think about.<br>More room for the day.</p></section>
+<section class="story-section" id="tether-fit" aria-labelledby="tether-fit-title"><span class="chapter">02 / FIT BEFORE FEATURES</span><h2 id="tether-fit-title">Get the basics right first.</h2><p>A case should match your exact phone model. Camera openings, button positions and overall dimensions can differ even between phones with similar names. Check your model in your device settings before choosing.</p><table class="comparison"><caption>Your everyday-kit checklist</caption><thead><tr><th scope="col">Piece</th><th scope="col">What to check</th></tr></thead><tbody><tr><th scope="row">Case</th><td>Exact device model, button access and camera clearance.</td></tr><tr><th scope="row">Grip</th><td>Attachment compatibility and comfort in your hand.</td></tr><tr><th scope="row">Cable</th><td>Connector type, length and your charger’s requirements.</td></tr></tbody></table><p>Look beyond the color match. A comfortable grip and the right connector matter more than an extra feature you never use.</p></section>
+<section class="story-section" id="tether-routine" aria-labelledby="tether-routine-title"><span class="chapter">03 / BUILD AROUND YOUR ROUTINE</span><h2 id="tether-routine-title">A little less friction, by design.</h2><p>Only need a case? Keep it simple. Prefer a grip when you’re taking photos? Add one. Want a coordinated desk setup? Include the braided cable. The right combination is the one that makes sense for you.</p><p>Choose your model and build your sample kit below. You can see the total change before adding anything to the bag.</p><a class="text-link" href="#tether-kit">Build a kit that fits your day <span aria-hidden="true">↗</span></a></section></div>
+<aside class="article-aside" aria-label="Article navigation"><nav class="toc" aria-label="In this story"><p class="eyebrow">In this story</p><a href="#tether-story">01 · Start with the everyday</a><a href="#tether-fit">02 · Fit before features</a><a href="#tether-routine">03 · Build your routine</a></nav><div class="aside-card"><p class="eyebrow">The everyday kit</p><h3>One palette.<br>Your combination.</h3><p>Start with the olive case, then add only what you need.</p><a class="btn wide" href="#tether-kit">Explore the kit ↗</a></div></aside></div></article>
+<section class="kit-section" id="tether-kit" aria-labelledby="tether-kit-title"><div class="shell section kit-grid"><img src="assets/phone.png" alt="The three pieces of the olive Tether concept kit: case, grip and USB-C cable" width="1448" height="1086" loading="lazy"><div><p class="eyebrow">Make it your everyday</p><h2 id="tether-kit-title">The essentials.<br>On your terms.</h2><p class="muted">Olive case from $58. Add your finishing touches.</p><form data-kit-form><label class="field" for="tether-device">Choose your phone model<select name="device" id="tether-device" required><option value="">Select your model</option><option>iPhone 16</option><option>iPhone 16 Pro</option><option>Galaxy S25</option></select></label><label class="check-option"><input name="grip" type="checkbox"><span>Add the circular grip</span><strong>+$18</strong></label><label class="check-option"><input name="cable" type="checkbox"><span>Add the braided USB-C cable</span><strong>+$24</strong></label><div class="kit-price"><span>Your sample kit</span><output data-kit-total aria-live="polite" aria-atomic="true">$58</output></div><button class="btn wide" type="submit">Add kit to sample bag <span class="arrow" aria-hidden="true">↗</span></button></form><p class="live-note muted">Concept prices and options. No checkout or payment.</p></div></div></section>
+</main><footer class="shell footer"><a href="index.html">TETHER / Collection of concepts</a><p>Independent portfolio concept. Fictional brand, products and prices; AI-generated photography. Shopping interactions are demonstrations. No orders or payments are taken.</p></footer><aside class="mobile-dock" aria-label="Build your kit"><span>Your everyday kit<strong>From $58 USD</strong></span><a class="btn" href="#tether-kit">Choose your kit ↗</a></aside><dialog data-cart-dialog aria-labelledby="tether-cart-title" aria-describedby="tether-cart-note"><div class="dialog-top"><h2 id="tether-cart-title">Your sample bag</h2><button type="button" class="icon-btn" data-close aria-label="Close sample bag">✕</button></div><p data-cart-empty>Your bag is empty. Find something you love.</p><ul class="cart-lines" data-cart-lines></ul><p class="cart-total"><span>Sample total</span><span data-cart-total>$0</span></p><p class="dialog-note" id="tether-cart-note">This is a portfolio preview. These fictional products cannot be purchased, and no payment is collected.</p></dialog></div>
+<script>
+(() => {
+  'use strict';
+  document.querySelectorAll('.sp-root').forEach(root => {
+    if (root.dataset.initialized) return;
+    root.dataset.initialized = 'true';
+    const money = value => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(value);
+    const cart = [];
+    const cartDialog = root.querySelector('[data-cart-dialog]');
+    let lastFocus;
+    function openDialog(dialog) {
+      if (!dialog || dialog.open) return;
+      lastFocus = document.activeElement;
+      dialog.showModal();
+      dialog.querySelector('[data-close]')?.focus();
+    }
+    root.querySelectorAll('dialog').forEach(dialog => {
+      dialog.addEventListener('keydown', event => {
+        if (event.key !== 'Tab') return;
+        const controls = [...dialog.querySelectorAll('button, a[href], input, select, textarea, [tabindex="0"]')].filter(el => !el.disabled && el.getClientRects().length);
+        const first = controls[0], last = controls.at(-1);
+        if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+        else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+      });
+      dialog.querySelector('[data-close]')?.addEventListener('click', () => dialog.close());
+      dialog.addEventListener('close', () => { if (lastFocus?.isConnected) lastFocus.focus(); });
+      dialog.addEventListener('click', event => { if (event.target === dialog) { const r = dialog.getBoundingClientRect(); if (event.clientX < r.left || event.clientX > r.right || event.clientY < r.top || event.clientY > r.bottom) dialog.close(); } });
+    });
+    function renderCart() {
+      if (!cartDialog) return;
+      const list = cartDialog.querySelector('[data-cart-lines]');
+      list.replaceChildren();
+      cart.forEach((item, index) => {
+        const li = document.createElement('li');
+        const description = document.createElement('span');
+        description.textContent = item.name;
+        const detail = document.createElement('small');
+        detail.textContent = `${item.quantity} × ${money(item.price)}`;
+        description.append(detail);
+        const remove = document.createElement('button');
+        remove.className = 'icon-btn'; remove.type = 'button'; remove.textContent = 'Remove';
+        remove.setAttribute('aria-label', `Remove ${item.name} from bag`);
+        remove.addEventListener('click', () => { cart.splice(index, 1); renderCart(); cartDialog.querySelector('[data-close]').focus(); });
+        li.append(description, remove); list.append(li);
+      });
+      cartDialog.querySelector('[data-cart-empty]').hidden = cart.length > 0;
+      cartDialog.querySelector('[data-cart-total]').textContent = money(cart.reduce((sum, item) => sum + item.price * item.quantity, 0));
+      root.querySelectorAll('[data-cart-count]').forEach(el => el.textContent = String(cart.reduce((sum, item) => sum + item.quantity, 0)));
+    }
+    root.querySelectorAll('[data-open-cart]').forEach(button => button.addEventListener('click', () => { renderCart(); openDialog(cartDialog); }));
+    root.querySelector('[data-bag-form]')?.addEventListener('submit', event => {
+      event.preventDefault();
+      const form = event.currentTarget;
+      if (!form.reportValidity()) return;
+      const quantity = Number(new FormData(form).get('quantity'));
+      const strap = new FormData(form).get('strap');
+      cart.push({ name: `The Arc · Espresso · ${strap} strap`, price: 285, quantity });
+      renderCart(); openDialog(cartDialog);
+    });
+    const kit = root.querySelector('[data-kit-form]');
+    function kitPrice() { return 58 + (kit?.elements.grip.checked ? 18 : 0) + (kit?.elements.cable.checked ? 24 : 0); }
+    kit?.addEventListener('change', () => { kit.querySelector('[data-kit-total]').textContent = money(kitPrice()); });
+    kit?.addEventListener('submit', event => {
+      event.preventDefault();
+      if (!kit.reportValidity()) return;
+      const options = ['case', ...(kit.elements.grip.checked ? ['grip'] : []), ...(kit.elements.cable.checked ? ['cable'] : [])];
+      cart.push({ name: `${kit.elements.device.value} · ${options.join(' + ')}`, price: kitPrice(), quantity: 1 });
+      renderCart(); openDialog(cartDialog);
+    });
+    const saved = new Set();
+    const cards = [...root.querySelectorAll('[data-look]')];
+    try { const stored = JSON.parse(localStorage.getItem('after-dark-saved') || '[]'); if (Array.isArray(stored)) stored.forEach(id => { if (cards.some(card => card.dataset.look === id)) saved.add(id); }); } catch { /* Saving still works for this visit when storage is unavailable. */ }
+    function renderSaved() {
+      cards.forEach(card => {
+        const button = card.querySelector('[data-save]');
+        const active = saved.has(card.dataset.look);
+        button.setAttribute('aria-pressed', String(active));
+        button.setAttribute('aria-label', `${active ? 'Remove' : 'Save'} ${card.dataset.title}${active ? ' from' : ' to'} shortlist`);
+        button.textContent = active ? '♥' : '♡';
+      });
+      root.querySelectorAll('[data-saved-count]').forEach(el => el.textContent = String(saved.size));
+      const list = root.querySelector('[data-saved-list]');
+      if (list) {
+        list.replaceChildren();
+        cards.filter(card => saved.has(card.dataset.look)).forEach(card => { const li = document.createElement('li'); li.textContent = card.dataset.title; list.append(li); });
+        root.querySelector('[data-saved-empty]').hidden = saved.size > 0;
+      }
+      try { localStorage.setItem('after-dark-saved', JSON.stringify([...saved])); } catch { /* Session-only fallback. */ }
+    }
+    cards.forEach(card => card.querySelector('[data-save]').addEventListener('click', () => {
+      const id = card.dataset.look;
+      saved.has(id) ? saved.delete(id) : saved.add(id);
+      renderSaved();
+      root.querySelector('[data-saved-status]').textContent = `${card.dataset.title} ${saved.has(id) ? 'saved to' : 'removed from'} your shortlist.`;
+    }));
+    root.querySelectorAll('[data-filter]').forEach(button => button.addEventListener('click', () => {
+      const filter = button.dataset.filter;
+      root.querySelectorAll('[data-filter]').forEach(b => b.setAttribute('aria-pressed', String(b === button)));
+      cards.forEach(card => card.hidden = filter !== 'all' && !card.dataset.tags.split(' ').includes(filter));
+      root.querySelector('[data-results]').textContent = `${cards.filter(card => !card.hidden).length} costume ideas`;
+    }));
+    root.querySelectorAll('[data-open-saved]').forEach(button => button.addEventListener('click', () => openDialog(root.querySelector('[data-saved-dialog]'))));
+    if (cards.length) renderSaved();
+    root.querySelectorAll('[data-print]').forEach(button => button.addEventListener('click', () => window.print()));
+  });
+})();
+
+</script>
