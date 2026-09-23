@@ -16,7 +16,7 @@ See [Shopify and builder alignment](SHOPIFY-HANDOFF.md) for account requirements
 
 ## What this demonstrates
 
-Distinct art direction, conversion-focused information hierarchy, responsive CSS, accessible native controls and lightweight JavaScript. Each page has an early CTA and a mobile action bar. The Halloween shopping guide labels its retailer links as non-affiliate portfolio examples, without claiming paid partnerships. No fabricated testimonials, discounts, scarcity, conversion metrics or client outcomes are presented.
+Distinct art direction, conversion-focused information hierarchy, responsive CSS, accessible native controls and lightweight JavaScript. Each main concept has an early CTA and a mobile action bar; detail pages keep a clear introduction and CTA. The Halloween shopping guide labels its retailer links as non-affiliate portfolio examples, without claiming paid partnerships. No fabricated testimonials, discounts, scarcity, conversion metrics or client outcomes are presented.
 
 The websites are standalone HTML/CSS/JavaScript. **They were not authored or verified inside the proprietary builder editors.** Builder folders are custom-code handoffs, not native drag-and-drop templates or evidence of platform experience. Suggested portfolio wording: “Three responsive commerce concepts with custom-code handoffs for GemPages, PageFly and Shogun.”
 
