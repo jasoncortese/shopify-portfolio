@@ -1,0 +1,98 @@
+[
+  {
+    "name": "halloween-disco",
+    "width": 1536,
+    "height": 1024,
+    "original": 2010718,
+    "web": 320102,
+    "mobile": 82904
+  },
+  {
+    "name": "halloween-fairy",
+    "width": 1536,
+    "height": 1024,
+    "original": 2649499,
+    "web": 489218,
+    "mobile": 109584
+  },
+  {
+    "name": "halloween-heist",
+    "width": 1536,
+    "height": 1024,
+    "original": 2435695,
+    "web": 399579,
+    "mobile": 90095
+  },
+  {
+    "name": "halloween-space",
+    "width": 1536,
+    "height": 1024,
+    "original": 2261554,
+    "web": 351568,
+    "mobile": 84132
+  },
+  {
+    "name": "halloween-vampire",
+    "width": 1536,
+    "height": 1024,
+    "original": 2017272,
+    "web": 297252,
+    "mobile": 77303
+  },
+  {
+    "name": "halloween-witch",
+    "width": 1536,
+    "height": 1024,
+    "original": 2856601,
+    "web": 535661,
+    "mobile": 121064
+  },
+  {
+    "name": "halloween",
+    "width": 1536,
+    "height": 1024,
+    "original": 2653656,
+    "web": 514812,
+    "mobile": 107164
+  },
+  {
+    "name": "handbag-clutch",
+    "width": 1122,
+    "height": 1402,
+    "original": 2154418,
+    "web": 327650,
+    "mobile": 102722
+  },
+  {
+    "name": "handbag-fold",
+    "width": 1122,
+    "height": 1402,
+    "original": 2157666,
+    "web": 346652,
+    "mobile": 114149
+  },
+  {
+    "name": "handbag-tote",
+    "width": 1122,
+    "height": 1402,
+    "original": 2283834,
+    "web": 372270,
+    "mobile": 112466
+  },
+  {
+    "name": "handbag",
+    "width": 1122,
+    "height": 1402,
+    "original": 2397394,
+    "web": 388855,
+    "mobile": 132025
+  },
+  {
+    "name": "phone",
+    "width": 1448,
+    "height": 1086,
+    "original": 2095122,
+    "web": 293419,
+    "mobile": 64709
+  }
+]
