@@ -1,0 +1,1844 @@
+{
+    "content": [
+        {
+            "id": "d836eaf",
+            "settings": {
+                "_title": "TETHER header",
+                "content_width": "boxed",
+                "flex_direction": "column",
+                "flex_gap": {
+                    "unit": "px",
+                    "row": "20",
+                    "column": "20",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "24",
+                    "right": "32",
+                    "bottom": "24",
+                    "left": "32",
+                    "isLinked": false
+                },
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1180,
+                    "sizes": []
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "20",
+                    "right": "20",
+                    "bottom": "20",
+                    "left": "20",
+                    "isLinked": true
+                },
+                "html_tag": "header"
+            },
+            "elements": [
+                {
+                    "id": "6317575",
+                    "settings": {
+                        "_title": "Brand and guide link",
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_gap": {
+                            "unit": "px",
+                            "row": "20",
+                            "column": "20",
+                            "isLinked": true
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": true
+                        },
+                        "flex_direction_mobile": "row",
+                        "flex_align_items": "center",
+                        "flex_justify_content": "space-between"
+                    },
+                    "elements": [
+                        {
+                            "id": "6913a7a8",
+                            "settings": {
+                                "_title": "TETHER\u00ae",
+                                "title": "TETHER",
+                                "header_size": "p",
+                                "title_color": "#122141",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Arial",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 29,
+                                    "sizes": []
+                                },
+                                "typography_font_weight": "400",
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.08,
+                                    "sizes": []
+                                },
+                                "typography_font_size_mobile": {
+                                    "unit": "px",
+                                    "size": 29,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "4c145283",
+                            "settings": {
+                                "_title": "Explore the edit",
+                                "text": "Explore the edit",
+                                "link": {
+                                    "url": "#pieces"
+                                },
+                                "button_text_color": "#FFF",
+                                "background_color": "#163ECA",
+                                "hover_color": "#FFF",
+                                "button_background_hover_color": "#163ECA",
+                                "border_radius": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": true
+                                },
+                                "text_padding": {
+                                    "unit": "px",
+                                    "top": "17",
+                                    "right": "25",
+                                    "bottom": "17",
+                                    "left": "25",
+                                    "isLinked": false
+                                },
+                                "typography_typography": "custom",
+                                "typography_font_family": "Arial",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 16,
+                                    "sizes": []
+                                },
+                                "typography_font_weight": "700",
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.2,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "button",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "container"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        },
+        {
+            "id": "11009961",
+            "settings": {
+                "_title": "Main content",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                    "unit": "px",
+                    "row": "20",
+                    "column": "20",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": true
+                },
+                "html_tag": "main",
+                "_element_id": "main-content"
+            },
+            "elements": [
+                {
+                    "id": "39ac12c0",
+                    "settings": {
+                        "_title": "TETHER hero",
+                        "content_width": "boxed",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                            "unit": "px",
+                            "row": "20",
+                            "column": "20",
+                            "isLinked": true
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "24",
+                            "right": "32",
+                            "bottom": "70",
+                            "left": "32",
+                            "isLinked": false
+                        },
+                        "boxed_width": {
+                            "unit": "px",
+                            "size": 1180,
+                            "sizes": []
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "24",
+                            "right": "20",
+                            "bottom": "42",
+                            "left": "20",
+                            "isLinked": false
+                        },
+                        "html_tag": "section",
+                        "background_background": "classic",
+                        "background_color": "#EEF2FF"
+                    },
+                    "elements": [
+                        {
+                            "id": "15aa7d63",
+                            "settings": {
+                                "_title": "Accessories split hero",
+                                "content_width": "full",
+                                "flex_direction": "row",
+                                "flex_gap": {
+                                    "unit": "px",
+                                    "column": "38",
+                                    "row": "30",
+                                    "isLinked": false
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": true
+                                },
+                                "flex_direction_mobile": "column",
+                                "flex_align_items": "stretch"
+                            },
+                            "elements": [
+                                {
+                                    "id": "37f5ba6f",
+                                    "settings": {
+                                        "_title": "Hero copy",
+                                        "content_width": "full",
+                                        "flex_direction": "column",
+                                        "flex_gap": {
+                                            "unit": "px",
+                                            "row": "20",
+                                            "column": "20",
+                                            "isLinked": true
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "20",
+                                            "right": "28",
+                                            "bottom": "20",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "width": {
+                                            "unit": "%",
+                                            "size": 50,
+                                            "sizes": []
+                                        },
+                                        "width_mobile": {
+                                            "unit": "%",
+                                            "size": 100,
+                                            "sizes": []
+                                        },
+                                        "flex_justify_content": "center",
+                                        "padding_mobile": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": true
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "fd90711",
+                                            "settings": {
+                                                "_title": "THE EVERYDAY EDIT / 01",
+                                                "title": "THE EVERYDAY EDIT / 01",
+                                                "header_size": "p",
+                                                "title_color": "#163ECA",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "700",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.4,
+                                                    "sizes": []
+                                                },
+                                                "typography_letter_spacing": {
+                                                    "unit": "px",
+                                                    "size": 1.5,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "17a505cf",
+                                            "settings": {
+                                                "_title": "Your phone.<br>Your kind<br>of kit.",
+                                                "title": "Your phone.<br>Your kind<br>of kit.",
+                                                "header_size": "h1",
+                                                "title_color": "#122141",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 76,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.08,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 52,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "46634929",
+                                            "settings": {
+                                                "_title": "Body copy",
+                                                "editor": "<p>Start with the case. Add only what earns its place in your day.</p>",
+                                                "text_color": "#122141",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 20,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.55,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "5449cc01",
+                                            "settings": {
+                                                "_title": "Find your combination",
+                                                "text": "Find your combination",
+                                                "link": {
+                                                    "url": "#pieces"
+                                                },
+                                                "button_text_color": "#FFF",
+                                                "background_color": "#163ECA",
+                                                "hover_color": "#FFF",
+                                                "button_background_hover_color": "#163ECA",
+                                                "border_radius": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": true
+                                                },
+                                                "text_padding": {
+                                                    "unit": "px",
+                                                    "top": "17",
+                                                    "right": "25",
+                                                    "bottom": "17",
+                                                    "left": "25",
+                                                    "isLinked": false
+                                                },
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 16,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "700",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.2,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "button",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "212bc444",
+                                            "settings": {
+                                                "_title": "Body copy",
+                                                "editor": "<p>Three useful pieces. No unnecessary extras.</p>",
+                                                "text_color": "#122141",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.55,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": false,
+                                    "elType": "container"
+                                },
+                                {
+                                    "id": "167c063f",
+                                    "settings": {
+                                        "_title": "Product still life",
+                                        "content_width": "full",
+                                        "flex_direction": "column",
+                                        "flex_gap": {
+                                            "unit": "px",
+                                            "row": "20",
+                                            "column": "20",
+                                            "isLinked": true
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": true
+                                        },
+                                        "width": {
+                                            "unit": "%",
+                                            "size": 50,
+                                            "sizes": []
+                                        },
+                                        "width_mobile": {
+                                            "unit": "%",
+                                            "size": 100,
+                                            "sizes": []
+                                        },
+                                        "flex_justify_content": "center"
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "5bb12366",
+                                            "settings": {
+                                                "_title": "Olive phone case, circular grip and braided USB-C cable arranged on grey blocks",
+                                                "image": {
+                                                    "id": 9,
+                                                    "url": "https://jasoncortese.github.io/shopify-portfolio/assets/web/phone.jpg"
+                                                },
+                                                "image_size": "full",
+                                                "caption_source": "none",
+                                                "width": {
+                                                    "unit": "%",
+                                                    "size": 100,
+                                                    "sizes": []
+                                                },
+                                                "height": {
+                                                    "unit": "px",
+                                                    "size": 560,
+                                                    "sizes": []
+                                                },
+                                                "height_mobile": {
+                                                    "unit": "px",
+                                                    "size": 340,
+                                                    "sizes": []
+                                                },
+                                                "object-fit": "cover",
+                                                "_css_classes": "demo-photo"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "2de46081",
+                                            "settings": {
+                                                "_title": "CASE / GRIP / CABLE",
+                                                "title": "CASE / GRIP / CABLE",
+                                                "header_size": "p",
+                                                "title_color": "#122141",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "700",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.4,
+                                                    "sizes": []
+                                                },
+                                                "typography_letter_spacing": {
+                                                    "unit": "px",
+                                                    "size": 1.5,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": false,
+                                    "elType": "container"
+                                }
+                            ],
+                            "isInner": false,
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "container"
+                },
+                {
+                    "id": "3c04e052",
+                    "settings": {
+                        "_title": "Choose your pieces",
+                        "content_width": "boxed",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                            "unit": "px",
+                            "row": "20",
+                            "column": "20",
+                            "isLinked": true
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "70",
+                            "right": "32",
+                            "bottom": "70",
+                            "left": "32",
+                            "isLinked": false
+                        },
+                        "boxed_width": {
+                            "unit": "px",
+                            "size": 1180,
+                            "sizes": []
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "42",
+                            "right": "20",
+                            "bottom": "42",
+                            "left": "20",
+                            "isLinked": false
+                        },
+                        "_element_id": "pieces"
+                    },
+                    "elements": [
+                        {
+                            "id": "6b531bed",
+                            "settings": {
+                                "_title": "A SMALLER, BETTER EDIT",
+                                "title": "A SMALLER, BETTER EDIT",
+                                "header_size": "p",
+                                "title_color": "#163ECA",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Arial",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 14,
+                                    "sizes": []
+                                },
+                                "typography_font_weight": "700",
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.4,
+                                    "sizes": []
+                                },
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 1.5,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "6853a083",
+                            "settings": {
+                                "_title": "Good together.<br>Better your way.",
+                                "title": "Good together.<br>Better your way.",
+                                "header_size": "h2",
+                                "title_color": "#122141",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Arial",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 50,
+                                    "sizes": []
+                                },
+                                "typography_font_weight": "400",
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.08,
+                                    "sizes": []
+                                },
+                                "typography_font_size_mobile": {
+                                    "unit": "px",
+                                    "size": 36,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "486a3cd",
+                            "settings": {
+                                "_title": "Three accessory cards",
+                                "content_width": "full",
+                                "flex_direction": "row",
+                                "flex_gap": {
+                                    "unit": "px",
+                                    "column": "22",
+                                    "row": "22",
+                                    "isLinked": true
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": true
+                                },
+                                "flex_direction_mobile": "column",
+                                "flex_align_items": "stretch"
+                            },
+                            "elements": [
+                                {
+                                    "id": "7ef18085",
+                                    "settings": {
+                                        "_title": "The case",
+                                        "content_width": "full",
+                                        "flex_direction": "column",
+                                        "flex_gap": {
+                                            "unit": "px",
+                                            "row": "20",
+                                            "column": "20",
+                                            "isLinked": true
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "30",
+                                            "right": "30",
+                                            "bottom": "30",
+                                            "left": "30",
+                                            "isLinked": true
+                                        },
+                                        "width": {
+                                            "unit": "%",
+                                            "size": 33.333,
+                                            "sizes": []
+                                        },
+                                        "width_mobile": {
+                                            "unit": "%",
+                                            "size": 100,
+                                            "sizes": []
+                                        },
+                                        "background_background": "classic",
+                                        "background_color": "#EEF2FF"
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "59b1e603",
+                                            "settings": {
+                                                "_title": "01",
+                                                "title": "01",
+                                                "header_size": "p",
+                                                "title_color": "#163ECA",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "700",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.4,
+                                                    "sizes": []
+                                                },
+                                                "typography_letter_spacing": {
+                                                    "unit": "px",
+                                                    "size": 1.5,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "675bbe04",
+                                            "settings": {
+                                                "_title": "The case",
+                                                "title": "The case",
+                                                "header_size": "h3",
+                                                "title_color": "#122141",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 32,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.08,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 32,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "355b42b1",
+                                            "settings": {
+                                                "_title": "Body copy",
+                                                "editor": "<p>A clean silhouette in olive. Choose the version for your exact phone model.</p>",
+                                                "text_color": "#122141",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 18,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.55,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "434aeb55",
+                                            "settings": {
+                                                "_title": "$58",
+                                                "title": "$58",
+                                                "header_size": "p",
+                                                "title_color": "#122141",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 30,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.08,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 30,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "26cba3a2",
+                                            "settings": {
+                                                "_title": "Read the fit guide",
+                                                "text": "Read the fit guide",
+                                                "link": {
+                                                    "url": "#fit"
+                                                },
+                                                "button_text_color": "#FFF",
+                                                "background_color": "#163ECA",
+                                                "hover_color": "#FFF",
+                                                "button_background_hover_color": "#163ECA",
+                                                "border_radius": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": true
+                                                },
+                                                "text_padding": {
+                                                    "unit": "px",
+                                                    "top": "17",
+                                                    "right": "25",
+                                                    "bottom": "17",
+                                                    "left": "25",
+                                                    "isLinked": false
+                                                },
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 16,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "700",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.2,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "button",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": false,
+                                    "elType": "container"
+                                },
+                                {
+                                    "id": "35f28fdf",
+                                    "settings": {
+                                        "_title": "The grip",
+                                        "content_width": "full",
+                                        "flex_direction": "column",
+                                        "flex_gap": {
+                                            "unit": "px",
+                                            "row": "20",
+                                            "column": "20",
+                                            "isLinked": true
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "30",
+                                            "right": "30",
+                                            "bottom": "30",
+                                            "left": "30",
+                                            "isLinked": true
+                                        },
+                                        "width": {
+                                            "unit": "%",
+                                            "size": 33.333,
+                                            "sizes": []
+                                        },
+                                        "width_mobile": {
+                                            "unit": "%",
+                                            "size": 100,
+                                            "sizes": []
+                                        },
+                                        "background_background": "classic",
+                                        "background_color": "#EEF2FF"
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "645dd882",
+                                            "settings": {
+                                                "_title": "02",
+                                                "title": "02",
+                                                "header_size": "p",
+                                                "title_color": "#163ECA",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "700",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.4,
+                                                    "sizes": []
+                                                },
+                                                "typography_letter_spacing": {
+                                                    "unit": "px",
+                                                    "size": 1.5,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "744cc946",
+                                            "settings": {
+                                                "_title": "The grip",
+                                                "title": "The grip",
+                                                "header_size": "h3",
+                                                "title_color": "#122141",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 32,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.08,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 32,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "7397685b",
+                                            "settings": {
+                                                "_title": "Body copy",
+                                                "editor": "<p>A little extra hold. A matching detail for the way you carry your phone.</p>",
+                                                "text_color": "#122141",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 18,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.55,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "5bf75761",
+                                            "settings": {
+                                                "_title": "+$18",
+                                                "title": "+$18",
+                                                "header_size": "p",
+                                                "title_color": "#122141",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 30,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.08,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 30,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "311d9fba",
+                                            "settings": {
+                                                "_title": "Read the fit guide",
+                                                "text": "Read the fit guide",
+                                                "link": {
+                                                    "url": "#fit"
+                                                },
+                                                "button_text_color": "#FFF",
+                                                "background_color": "#163ECA",
+                                                "hover_color": "#FFF",
+                                                "button_background_hover_color": "#163ECA",
+                                                "border_radius": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": true
+                                                },
+                                                "text_padding": {
+                                                    "unit": "px",
+                                                    "top": "17",
+                                                    "right": "25",
+                                                    "bottom": "17",
+                                                    "left": "25",
+                                                    "isLinked": false
+                                                },
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 16,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "700",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.2,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "button",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": false,
+                                    "elType": "container"
+                                },
+                                {
+                                    "id": "473683ab",
+                                    "settings": {
+                                        "_title": "The cable",
+                                        "content_width": "full",
+                                        "flex_direction": "column",
+                                        "flex_gap": {
+                                            "unit": "px",
+                                            "row": "20",
+                                            "column": "20",
+                                            "isLinked": true
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "30",
+                                            "right": "30",
+                                            "bottom": "30",
+                                            "left": "30",
+                                            "isLinked": true
+                                        },
+                                        "width": {
+                                            "unit": "%",
+                                            "size": 33.333,
+                                            "sizes": []
+                                        },
+                                        "width_mobile": {
+                                            "unit": "%",
+                                            "size": 100,
+                                            "sizes": []
+                                        },
+                                        "background_background": "classic",
+                                        "background_color": "#EEF2FF"
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "5178f146",
+                                            "settings": {
+                                                "_title": "03",
+                                                "title": "03",
+                                                "header_size": "p",
+                                                "title_color": "#163ECA",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "700",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.4,
+                                                    "sizes": []
+                                                },
+                                                "typography_letter_spacing": {
+                                                    "unit": "px",
+                                                    "size": 1.5,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "4380cc30",
+                                            "settings": {
+                                                "_title": "The cable",
+                                                "title": "The cable",
+                                                "header_size": "h3",
+                                                "title_color": "#122141",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 32,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.08,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 32,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "ffae7aa",
+                                            "settings": {
+                                                "_title": "Body copy",
+                                                "editor": "<p>A braided USB-C finish for your desk, your bag and your daily charging spot.</p>",
+                                                "text_color": "#122141",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 18,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.55,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "4e4afcec",
+                                            "settings": {
+                                                "_title": "+$24",
+                                                "title": "+$24",
+                                                "header_size": "p",
+                                                "title_color": "#122141",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 30,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.08,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 30,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "4a15df1a",
+                                            "settings": {
+                                                "_title": "Read the fit guide",
+                                                "text": "Read the fit guide",
+                                                "link": {
+                                                    "url": "#fit"
+                                                },
+                                                "button_text_color": "#FFF",
+                                                "background_color": "#163ECA",
+                                                "hover_color": "#FFF",
+                                                "button_background_hover_color": "#163ECA",
+                                                "border_radius": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": true
+                                                },
+                                                "text_padding": {
+                                                    "unit": "px",
+                                                    "top": "17",
+                                                    "right": "25",
+                                                    "bottom": "17",
+                                                    "left": "25",
+                                                    "isLinked": false
+                                                },
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 16,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "700",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.2,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "button",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": false,
+                                    "elType": "container"
+                                }
+                            ],
+                            "isInner": false,
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "container"
+                },
+                {
+                    "id": "6ff97267",
+                    "settings": {
+                        "_title": "Fit guide",
+                        "content_width": "boxed",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                            "unit": "px",
+                            "row": "20",
+                            "column": "20",
+                            "isLinked": true
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "70",
+                            "right": "32",
+                            "bottom": "70",
+                            "left": "32",
+                            "isLinked": false
+                        },
+                        "boxed_width": {
+                            "unit": "px",
+                            "size": 1180,
+                            "sizes": []
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "42",
+                            "right": "20",
+                            "bottom": "42",
+                            "left": "20",
+                            "isLinked": false
+                        },
+                        "background_background": "classic",
+                        "background_color": "#DCE85B",
+                        "_element_id": "fit"
+                    },
+                    "elements": [
+                        {
+                            "id": "800d1f",
+                            "settings": {
+                                "_title": "Fit guide split",
+                                "content_width": "full",
+                                "flex_direction": "row",
+                                "flex_gap": {
+                                    "unit": "px",
+                                    "column": "70",
+                                    "row": "30",
+                                    "isLinked": false
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": true
+                                },
+                                "flex_direction_mobile": "column",
+                                "flex_align_items": "stretch"
+                            },
+                            "elements": [
+                                {
+                                    "id": "7d893d9c",
+                                    "settings": {
+                                        "_title": "Fit guide introduction",
+                                        "content_width": "full",
+                                        "flex_direction": "column",
+                                        "flex_gap": {
+                                            "unit": "px",
+                                            "row": "20",
+                                            "column": "20",
+                                            "isLinked": true
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": true
+                                        },
+                                        "width": {
+                                            "unit": "%",
+                                            "size": 50,
+                                            "sizes": []
+                                        },
+                                        "width_mobile": {
+                                            "unit": "%",
+                                            "size": 100,
+                                            "sizes": []
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "3571171b",
+                                            "settings": {
+                                                "_title": "BEFORE YOU DECIDE",
+                                                "title": "BEFORE YOU DECIDE",
+                                                "header_size": "p",
+                                                "title_color": "#122141",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "700",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.4,
+                                                    "sizes": []
+                                                },
+                                                "typography_letter_spacing": {
+                                                    "unit": "px",
+                                                    "size": 1.5,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "20ace2d7",
+                                            "settings": {
+                                                "_title": "Get the<br>fit right.",
+                                                "title": "Get the<br>fit right.",
+                                                "header_size": "h2",
+                                                "title_color": "#122141",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 56,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.08,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 40,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "7bb4b690",
+                                            "settings": {
+                                                "_title": "Body copy",
+                                                "editor": "<p>The best accessory is the one that works with what you already have.</p>",
+                                                "text_color": "#122141",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 20,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.55,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": false,
+                                    "elType": "container"
+                                },
+                                {
+                                    "id": "76db895f",
+                                    "settings": {
+                                        "_title": "Fit guide answers",
+                                        "content_width": "full",
+                                        "flex_direction": "column",
+                                        "flex_gap": {
+                                            "unit": "px",
+                                            "row": "20",
+                                            "column": "20",
+                                            "isLinked": true
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": true
+                                        },
+                                        "width": {
+                                            "unit": "%",
+                                            "size": 50,
+                                            "sizes": []
+                                        },
+                                        "width_mobile": {
+                                            "unit": "%",
+                                            "size": 100,
+                                            "sizes": []
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "47ace157",
+                                            "settings": {
+                                                "_title": "Check your exact model",
+                                                "title": "Check your exact model",
+                                                "header_size": "h3",
+                                                "title_color": "#122141",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 24,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.08,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 24,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "578b62d5",
+                                            "settings": {
+                                                "_title": "Body copy",
+                                                "editor": "<p>Find the model name in your phone settings. Camera openings, buttons and dimensions can differ between similar phones.</p>",
+                                                "text_color": "#122141",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 17,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.55,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "2bd95275",
+                                            "settings": {
+                                                "_title": "Choose the extras you need",
+                                                "title": "Choose the extras you need",
+                                                "header_size": "h3",
+                                                "title_color": "#122141",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 24,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.08,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 24,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "4548f337",
+                                            "settings": {
+                                                "_title": "Body copy",
+                                                "editor": "<p>Start with the case. A grip and cable are optional, so your everyday kit stays personal.</p>",
+                                                "text_color": "#122141",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 17,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.55,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "20b0def5",
+                                            "settings": {
+                                                "_title": "Confirm compatibility",
+                                                "title": "Confirm compatibility",
+                                                "header_size": "h3",
+                                                "title_color": "#122141",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 24,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.08,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 24,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "7ae9e6e0",
+                                            "settings": {
+                                                "_title": "Body copy",
+                                                "editor": "<p>For a real purchase, check connector, charger and grip specifications. This concept does not claim tested charging or drop-protection performance.</p>",
+                                                "text_color": "#122141",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 17,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.55,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": false,
+                                    "elType": "container"
+                                }
+                            ],
+                            "isInner": false,
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "container"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        },
+        {
+            "id": "49e35b09",
+            "settings": {
+                "_title": "Footer",
+                "content_width": "boxed",
+                "flex_direction": "column",
+                "flex_gap": {
+                    "unit": "px",
+                    "row": "20",
+                    "column": "20",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "36",
+                    "right": "32",
+                    "bottom": "36",
+                    "left": "32",
+                    "isLinked": false
+                },
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1180,
+                    "sizes": []
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "42",
+                    "right": "20",
+                    "bottom": "42",
+                    "left": "20",
+                    "isLinked": false
+                },
+                "html_tag": "footer",
+                "background_background": "classic",
+                "background_color": "#E8EBE5"
+            },
+            "elements": [
+                {
+                    "id": "1ec44c63",
+                    "settings": {
+                        "_title": "TETHER / Everyday carry",
+                        "title": "TETHER / Everyday carry",
+                        "header_size": "p",
+                        "title_color": "#22281F",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Georgia",
+                        "typography_font_size": {
+                            "unit": "px",
+                            "size": 26,
+                            "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "typography_line_height": {
+                            "unit": "em",
+                            "size": 1.08,
+                            "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                            "unit": "px",
+                            "size": 26,
+                            "sizes": []
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "heading",
+                    "elType": "widget"
+                },
+                {
+                    "id": "3ff8b90c",
+                    "settings": {
+                        "_title": "Back to portfolio",
+                        "text": "Back to portfolio",
+                        "link": {
+                            "url": "https://jasoncortese.github.io/shopify-portfolio/wordpress/"
+                        },
+                        "button_text_color": "#FFF",
+                        "background_color": "#26372A",
+                        "hover_color": "#FFF",
+                        "button_background_hover_color": "#26372A",
+                        "border_radius": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": true
+                        },
+                        "text_padding": {
+                            "unit": "px",
+                            "top": "17",
+                            "right": "25",
+                            "bottom": "17",
+                            "left": "25",
+                            "isLinked": false
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_family": "Arial",
+                        "typography_font_size": {
+                            "unit": "px",
+                            "size": 16,
+                            "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_line_height": {
+                            "unit": "em",
+                            "size": 1.2,
+                            "sizes": []
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "button",
+                    "elType": "widget"
+                },
+                {
+                    "id": "bb23ccf",
+                    "settings": {
+                        "_title": "Portfolio disclosure",
+                        "editor": "<p>Independent portfolio concept by Jason Cortese. Fictional brand, products and prices; AI-generated photography. No orders or payments are taken.</p>",
+                        "text_color": "#41483E",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Arial",
+                        "typography_font_size": {
+                            "unit": "px",
+                            "size": 14,
+                            "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "typography_line_height": {
+                            "unit": "em",
+                            "size": 1.55,
+                            "sizes": []
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "text-editor",
+                    "elType": "widget"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        }
+    ],
+    "page_settings": {
+        "template": "elementor_canvas",
+        "hide_title": "yes",
+        "background_background": "classic",
+        "background_color": "#FFFFFF"
+    },
+    "version": "0.4",
+    "title": "TETHER \u2014 Editable Elementor accessories",
+    "type": "page"
+}

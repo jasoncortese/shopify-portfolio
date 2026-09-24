@@ -1,0 +1,62 @@
+[
+  {
+    "ctaBottom": 518.5234375,
+    "h1": 1,
+    "main": 1,
+    "page": "vale",
+    "scroll": 320,
+    "width": 320
+  },
+  {
+    "ctaBottom": 647.6953125,
+    "h1": 1,
+    "main": 1,
+    "page": "vale",
+    "scroll": 768,
+    "width": 768
+  },
+  {
+    "ctaBottom": 581.3125,
+    "h1": 1,
+    "main": 1,
+    "page": "vale",
+    "scroll": 1440,
+    "width": 1440
+  },
+  {
+    "brokenAnchors": 0,
+    "ctaBottom": 562.796875,
+    "h1": 1,
+    "main": 1,
+    "page": "tether",
+    "scroll": 320,
+    "width": 320
+  },
+  {
+    "brokenAnchors": 0,
+    "ctaBottom": 480.4765625,
+    "h1": 1,
+    "main": 1,
+    "page": "tether",
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "brokenAnchors": 0,
+    "ctaBottom": 750.3984375,
+    "h1": 1,
+    "main": 1,
+    "page": "tether",
+    "scroll": 768,
+    "width": 768
+  },
+  {
+    "brokenAnchors": 0,
+    "ctaBottom": 609.171875,
+    "h1": 1,
+    "main": 1,
+    "page": "tether",
+    "scroll": 1440,
+    "width": 1440
+  }
+]

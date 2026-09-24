@@ -1,0 +1,12 @@
+{
+    "vale": {
+        "template_id": 30,
+        "widgets": 40,
+        "imported": true
+    },
+    "tether": {
+        "template_id": 33,
+        "widgets": 38,
+        "imported": true
+    }
+}

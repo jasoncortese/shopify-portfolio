@@ -1,0 +1,1874 @@
+{
+    "content": [
+        {
+            "id": "3ec1d685",
+            "settings": {
+                "_title": "VALE header",
+                "flex_direction": "column",
+                "flex_gap": {
+                    "unit": "px",
+                    "row": "20",
+                    "column": "20",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "24",
+                    "right": "32",
+                    "bottom": "24",
+                    "left": "32",
+                    "isLinked": false
+                },
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1180,
+                    "sizes": []
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "20",
+                    "right": "20",
+                    "bottom": "20",
+                    "left": "20",
+                    "isLinked": true
+                },
+                "html_tag": "header"
+            },
+            "elements": [
+                {
+                    "id": "5c99e760",
+                    "settings": {
+                        "_title": "Brand and collection link",
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_gap": {
+                            "unit": "px",
+                            "row": "20",
+                            "column": "20",
+                            "isLinked": true
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": true
+                        },
+                        "flex_direction_mobile": "row",
+                        "flex_align_items": "center",
+                        "flex_justify_content": "space-between"
+                    },
+                    "elements": [
+                        {
+                            "id": "1036b429",
+                            "settings": {
+                                "_title": "VALE",
+                                "title": "VALE",
+                                "header_size": "p",
+                                "title_color": "#22281F",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Georgia",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 32,
+                                    "sizes": []
+                                },
+                                "typography_font_weight": "400",
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.08,
+                                    "sizes": []
+                                },
+                                "typography_font_size_mobile": {
+                                    "unit": "px",
+                                    "size": 32,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "639ef09a",
+                            "settings": {
+                                "_title": "View the collection",
+                                "text": "View the collection",
+                                "link": {
+                                    "url": "#collection"
+                                },
+                                "button_text_color": "#FFF",
+                                "background_color": "#26372A",
+                                "hover_color": "#FFF",
+                                "button_background_hover_color": "#26372A",
+                                "border_radius": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": true
+                                },
+                                "text_padding": {
+                                    "unit": "px",
+                                    "top": "17",
+                                    "right": "25",
+                                    "bottom": "17",
+                                    "left": "25",
+                                    "isLinked": false
+                                },
+                                "typography_typography": "custom",
+                                "typography_font_family": "Arial",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 16,
+                                    "sizes": []
+                                },
+                                "typography_font_weight": "700",
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.2,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "button",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        },
+        {
+            "id": "615157b5",
+            "settings": {
+                "_title": "Main content",
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                    "unit": "px",
+                    "row": "20",
+                    "column": "20",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": true
+                },
+                "html_tag": "main",
+                "_element_id": "main-content"
+            },
+            "elements": [
+                {
+                    "id": "3bb75c37",
+                    "settings": {
+                        "_title": "VALE hero",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                            "unit": "px",
+                            "row": "20",
+                            "column": "20",
+                            "isLinked": true
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "20",
+                            "right": "32",
+                            "bottom": "66",
+                            "left": "32",
+                            "isLinked": false
+                        },
+                        "boxed_width": {
+                            "unit": "px",
+                            "size": 1180,
+                            "sizes": []
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "24",
+                            "right": "20",
+                            "bottom": "42",
+                            "left": "20",
+                            "isLinked": false
+                        },
+                        "html_tag": "section"
+                    },
+                    "elements": [
+                        {
+                            "id": "b04595",
+                            "settings": {
+                                "_title": "Editorial split hero",
+                                "content_width": "full",
+                                "flex_direction": "row",
+                                "flex_gap": {
+                                    "unit": "px",
+                                    "column": "38",
+                                    "row": "32",
+                                    "isLinked": false
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": true
+                                },
+                                "flex_direction_mobile": "column",
+                                "flex_align_items": "stretch"
+                            },
+                            "elements": [
+                                {
+                                    "id": "31dd4416",
+                                    "settings": {
+                                        "_title": "Hero copy",
+                                        "content_width": "full",
+                                        "flex_direction": "column",
+                                        "flex_gap": {
+                                            "unit": "px",
+                                            "row": "20",
+                                            "column": "20",
+                                            "isLinked": true
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "35",
+                                            "right": "35",
+                                            "bottom": "35",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "width": {
+                                            "unit": "%",
+                                            "size": 50,
+                                            "sizes": []
+                                        },
+                                        "width_mobile": {
+                                            "unit": "%",
+                                            "size": 100,
+                                            "sizes": []
+                                        },
+                                        "flex_justify_content": "center",
+                                        "padding_mobile": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": true
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "7e7d10f4",
+                                            "settings": {
+                                                "_title": "OBJECTS FOR EVERY DAY",
+                                                "title": "OBJECTS FOR EVERY DAY",
+                                                "header_size": "p",
+                                                "title_color": "#41483E",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "700",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.4,
+                                                    "sizes": []
+                                                },
+                                                "typography_letter_spacing": {
+                                                    "unit": "px",
+                                                    "size": 1.5,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "1db7bd44",
+                                            "settings": {
+                                                "_title": "Less, but<br>lovelier.",
+                                                "title": "Less, but<br>lovelier",
+                                                "header_size": "h1",
+                                                "title_color": "#22281F",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Georgia",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 82,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.08,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 56,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "451a930d",
+                                            "settings": {
+                                                "_title": "Body copy",
+                                                "editor": "<p>A quiet statement for a full life. Sculptural bags with room for your everyday.</p>",
+                                                "text_color": "#41483E",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 20,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.55,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "37e6d3dd",
+                                            "settings": {
+                                                "_title": "Find your everyday bag",
+                                                "text": "Find your everyday bag",
+                                                "link": {
+                                                    "url": "#collection"
+                                                },
+                                                "button_text_color": "#FFF",
+                                                "background_color": "#26372A",
+                                                "hover_color": "#FFF",
+                                                "button_background_hover_color": "#26372A",
+                                                "border_radius": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": true
+                                                },
+                                                "text_padding": {
+                                                    "unit": "px",
+                                                    "top": "17",
+                                                    "right": "25",
+                                                    "bottom": "17",
+                                                    "left": "25",
+                                                    "isLinked": false
+                                                },
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 16,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "700",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.2,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "button",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "6db7ee2f",
+                                            "settings": {
+                                                "_title": "Body copy",
+                                                "editor": "<p>Three silhouettes. One considered point of view.</p>",
+                                                "text_color": "#41483E",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.55,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "container"
+                                },
+                                {
+                                    "id": "67144611",
+                                    "settings": {
+                                        "_title": "Hero photograph",
+                                        "content_width": "full",
+                                        "flex_direction": "column",
+                                        "flex_gap": {
+                                            "unit": "px",
+                                            "row": "20",
+                                            "column": "20",
+                                            "isLinked": true
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": true
+                                        },
+                                        "width": {
+                                            "unit": "%",
+                                            "size": 50,
+                                            "sizes": []
+                                        },
+                                        "width_mobile": {
+                                            "unit": "%",
+                                            "size": 100,
+                                            "sizes": []
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "1806251a",
+                                            "settings": {
+                                                "_title": "Espresso leather shoulder bag on a limestone plinth",
+                                                "image": {
+                                                    "id": 8,
+                                                    "url": "https://jasoncortese.github.io/shopify-portfolio/assets/web/handbag.jpg"
+                                                },
+                                                "image_size": "full",
+                                                "width": {
+                                                    "unit": "%",
+                                                    "size": 100,
+                                                    "sizes": []
+                                                },
+                                                "height": {
+                                                    "unit": "px",
+                                                    "size": 590,
+                                                    "sizes": []
+                                                },
+                                                "height_mobile": {
+                                                    "unit": "px",
+                                                    "size": 340,
+                                                    "sizes": []
+                                                },
+                                                "object-fit": "cover",
+                                                "_css_classes": "demo-photo"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "container"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                },
+                {
+                    "id": "61c0d154",
+                    "settings": {
+                        "_title": "The collection",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                            "unit": "px",
+                            "row": "20",
+                            "column": "20",
+                            "isLinked": true
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "70",
+                            "right": "32",
+                            "bottom": "70",
+                            "left": "32",
+                            "isLinked": false
+                        },
+                        "boxed_width": {
+                            "unit": "px",
+                            "size": 1180,
+                            "sizes": []
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "42",
+                            "right": "20",
+                            "bottom": "42",
+                            "left": "20",
+                            "isLinked": false
+                        },
+                        "_element_id": "collection"
+                    },
+                    "elements": [
+                        {
+                            "id": "620f4570",
+                            "settings": {
+                                "_title": "THE CONSIDERED COLLECTION",
+                                "title": "THE CONSIDERED COLLECTION",
+                                "header_size": "p",
+                                "title_color": "#41483E",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Arial",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 14,
+                                    "sizes": []
+                                },
+                                "typography_font_weight": "700",
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.4,
+                                    "sizes": []
+                                },
+                                "typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 1.5,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "38af450c",
+                            "settings": {
+                                "_title": "A shape for your kind of day.",
+                                "title": "A shape for your kind of day.",
+                                "title_color": "#22281F",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Georgia",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 44,
+                                    "sizes": []
+                                },
+                                "typography_font_weight": "400",
+                                "typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.08,
+                                    "sizes": []
+                                },
+                                "typography_font_size_mobile": {
+                                    "unit": "px",
+                                    "size": 36,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "3fed21a9",
+                            "settings": {
+                                "_title": "Three product cards",
+                                "content_width": "full",
+                                "flex_direction": "row",
+                                "flex_gap": {
+                                    "unit": "px",
+                                    "column": "28",
+                                    "row": "44",
+                                    "isLinked": false
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": true
+                                },
+                                "flex_direction_mobile": "column",
+                                "flex_align_items": "stretch"
+                            },
+                            "elements": [
+                                {
+                                    "id": "4e78ff17",
+                                    "settings": {
+                                        "_title": "The Arc",
+                                        "content_width": "full",
+                                        "flex_direction": "column",
+                                        "flex_gap": {
+                                            "unit": "px",
+                                            "row": "14",
+                                            "column": "14",
+                                            "isLinked": true
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": true
+                                        },
+                                        "width": {
+                                            "unit": "%",
+                                            "size": 33.333,
+                                            "sizes": []
+                                        },
+                                        "width_mobile": {
+                                            "unit": "%",
+                                            "size": 100,
+                                            "sizes": []
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "dafe68d",
+                                            "settings": {
+                                                "_title": "The Arc leather bag on a limestone plinth",
+                                                "image": {
+                                                    "id": 8,
+                                                    "url": "https://jasoncortese.github.io/shopify-portfolio/assets/web/handbag.jpg"
+                                                },
+                                                "image_size": "full",
+                                                "width": {
+                                                    "unit": "%",
+                                                    "size": 100,
+                                                    "sizes": []
+                                                },
+                                                "height": {
+                                                    "unit": "px",
+                                                    "size": 360,
+                                                    "sizes": []
+                                                },
+                                                "height_mobile": {
+                                                    "unit": "px",
+                                                    "size": 340,
+                                                    "sizes": []
+                                                },
+                                                "object-fit": "cover",
+                                                "_css_classes": "demo-photo"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "5db804c4",
+                                            "settings": {
+                                                "_title": "Espresso \u00b7 Shoulder bag",
+                                                "title": "Espresso \u00b7 Shoulder bag",
+                                                "header_size": "p",
+                                                "title_color": "#41483E",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "700",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.4,
+                                                    "sizes": []
+                                                },
+                                                "typography_letter_spacing": {
+                                                    "unit": "px",
+                                                    "size": 1.5,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "24e82f9c",
+                                            "settings": {
+                                                "_title": "The Arc",
+                                                "title": "The Arc",
+                                                "header_size": "h3",
+                                                "title_color": "#22281F",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Georgia",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 31,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.08,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 31,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "2ad6d8b1",
+                                            "settings": {
+                                                "_title": "Body copy",
+                                                "editor": "<p>A sculptural curve with space for the essentials.</p>",
+                                                "text_color": "#41483E",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 16,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.55,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "3da9d66f",
+                                            "settings": {
+                                                "_title": "Body copy",
+                                                "editor": "<p>$285 USD</p>",
+                                                "text_color": "#41483E",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 18,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.55,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "5a706f96",
+                                            "settings": {
+                                                "_title": "Explore The Arc",
+                                                "text": "Explore The Arc",
+                                                "link": {
+                                                    "url": "#details"
+                                                },
+                                                "button_text_color": "#FFF",
+                                                "background_color": "#26372A",
+                                                "hover_color": "#FFF",
+                                                "button_background_hover_color": "#26372A",
+                                                "border_radius": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": true
+                                                },
+                                                "text_padding": {
+                                                    "unit": "px",
+                                                    "top": "17",
+                                                    "right": "25",
+                                                    "bottom": "17",
+                                                    "left": "25",
+                                                    "isLinked": false
+                                                },
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 16,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "700",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.2,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "button",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "container"
+                                },
+                                {
+                                    "id": "5ae3aeca",
+                                    "settings": {
+                                        "_title": "The Fold",
+                                        "content_width": "full",
+                                        "flex_direction": "column",
+                                        "flex_gap": {
+                                            "unit": "px",
+                                            "row": "14",
+                                            "column": "14",
+                                            "isLinked": true
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": true
+                                        },
+                                        "width": {
+                                            "unit": "%",
+                                            "size": 33.333,
+                                            "sizes": []
+                                        },
+                                        "width_mobile": {
+                                            "unit": "%",
+                                            "size": 100,
+                                            "sizes": []
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "12d24318",
+                                            "settings": {
+                                                "_title": "The Fold leather bag on a limestone plinth",
+                                                "image": {
+                                                    "id": 6,
+                                                    "url": "https://jasoncortese.github.io/shopify-portfolio/assets/web/handbag-fold.jpg"
+                                                },
+                                                "image_size": "full",
+                                                "width": {
+                                                    "unit": "%",
+                                                    "size": 100,
+                                                    "sizes": []
+                                                },
+                                                "height": {
+                                                    "unit": "px",
+                                                    "size": 360,
+                                                    "sizes": []
+                                                },
+                                                "height_mobile": {
+                                                    "unit": "px",
+                                                    "size": 340,
+                                                    "sizes": []
+                                                },
+                                                "object-fit": "cover",
+                                                "_css_classes": "demo-photo"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "310fb212",
+                                            "settings": {
+                                                "_title": "Sand \u00b7 Crossbody",
+                                                "title": "Sand \u00b7 Crossbody",
+                                                "header_size": "p",
+                                                "title_color": "#41483E",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "700",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.4,
+                                                    "sizes": []
+                                                },
+                                                "typography_letter_spacing": {
+                                                    "unit": "px",
+                                                    "size": 1.5,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "2b2309b2",
+                                            "settings": {
+                                                "_title": "The Fold",
+                                                "title": "The Fold",
+                                                "header_size": "h3",
+                                                "title_color": "#22281F",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Georgia",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 31,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.08,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 31,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "2df89cba",
+                                            "settings": {
+                                                "_title": "Body copy",
+                                                "editor": "<p>A compact companion for coffee and wandering.</p>",
+                                                "text_color": "#41483E",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 16,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.55,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "4d87c40d",
+                                            "settings": {
+                                                "_title": "Body copy",
+                                                "editor": "<p>$195 USD</p>",
+                                                "text_color": "#41483E",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 18,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.55,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "23bed227",
+                                            "settings": {
+                                                "_title": "Explore The Fold",
+                                                "text": "Explore The Fold",
+                                                "link": {
+                                                    "url": "#details"
+                                                },
+                                                "button_text_color": "#FFF",
+                                                "background_color": "#26372A",
+                                                "hover_color": "#FFF",
+                                                "button_background_hover_color": "#26372A",
+                                                "border_radius": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": true
+                                                },
+                                                "text_padding": {
+                                                    "unit": "px",
+                                                    "top": "17",
+                                                    "right": "25",
+                                                    "bottom": "17",
+                                                    "left": "25",
+                                                    "isLinked": false
+                                                },
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 16,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "700",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.2,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "button",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "container"
+                                },
+                                {
+                                    "id": "18d40182",
+                                    "settings": {
+                                        "_title": "The Daybreak",
+                                        "content_width": "full",
+                                        "flex_direction": "column",
+                                        "flex_gap": {
+                                            "unit": "px",
+                                            "row": "14",
+                                            "column": "14",
+                                            "isLinked": true
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": true
+                                        },
+                                        "width": {
+                                            "unit": "%",
+                                            "size": 33.333,
+                                            "sizes": []
+                                        },
+                                        "width_mobile": {
+                                            "unit": "%",
+                                            "size": 100,
+                                            "sizes": []
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "12243c65",
+                                            "settings": {
+                                                "_title": "The Daybreak leather bag on a limestone plinth",
+                                                "image": {
+                                                    "id": 7,
+                                                    "url": "https://jasoncortese.github.io/shopify-portfolio/assets/web/handbag-tote.jpg"
+                                                },
+                                                "image_size": "full",
+                                                "width": {
+                                                    "unit": "%",
+                                                    "size": 100,
+                                                    "sizes": []
+                                                },
+                                                "height": {
+                                                    "unit": "px",
+                                                    "size": 360,
+                                                    "sizes": []
+                                                },
+                                                "height_mobile": {
+                                                    "unit": "px",
+                                                    "size": 340,
+                                                    "sizes": []
+                                                },
+                                                "object-fit": "cover",
+                                                "_css_classes": "demo-photo"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "4c553129",
+                                            "settings": {
+                                                "_title": "Cognac \u00b7 Tote",
+                                                "title": "Cognac \u00b7 Tote",
+                                                "header_size": "p",
+                                                "title_color": "#41483E",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "700",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.4,
+                                                    "sizes": []
+                                                },
+                                                "typography_letter_spacing": {
+                                                    "unit": "px",
+                                                    "size": 1.5,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "7090a1e4",
+                                            "settings": {
+                                                "_title": "The Daybreak",
+                                                "title": "The Daybreak",
+                                                "header_size": "h3",
+                                                "title_color": "#22281F",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Georgia",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 31,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.08,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 31,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "1323e77d",
+                                            "settings": {
+                                                "_title": "Body copy",
+                                                "editor": "<p>A little more room for everything the day becomes.</p>",
+                                                "text_color": "#41483E",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 16,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.55,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "709e76e7",
+                                            "settings": {
+                                                "_title": "Body copy",
+                                                "editor": "<p>$345 USD</p>",
+                                                "text_color": "#41483E",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 18,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.55,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "16ca6bb1",
+                                            "settings": {
+                                                "_title": "Explore The Daybreak",
+                                                "text": "Explore The Daybreak",
+                                                "link": {
+                                                    "url": "#details"
+                                                },
+                                                "button_text_color": "#FFF",
+                                                "background_color": "#26372A",
+                                                "hover_color": "#FFF",
+                                                "button_background_hover_color": "#26372A",
+                                                "border_radius": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": true
+                                                },
+                                                "text_padding": {
+                                                    "unit": "px",
+                                                    "top": "17",
+                                                    "right": "25",
+                                                    "bottom": "17",
+                                                    "left": "25",
+                                                    "isLinked": false
+                                                },
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 16,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "700",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.2,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "button",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "container"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                },
+                {
+                    "id": "2b90ebfd",
+                    "settings": {
+                        "_title": "Design and materials",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                            "unit": "px",
+                            "row": "20",
+                            "column": "20",
+                            "isLinked": true
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "70",
+                            "right": "32",
+                            "bottom": "70",
+                            "left": "32",
+                            "isLinked": false
+                        },
+                        "boxed_width": {
+                            "unit": "px",
+                            "size": 1180,
+                            "sizes": []
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "42",
+                            "right": "20",
+                            "bottom": "42",
+                            "left": "20",
+                            "isLinked": false
+                        },
+                        "background_background": "classic",
+                        "background_color": "#E7E4DB",
+                        "_element_id": "details"
+                    },
+                    "elements": [
+                        {
+                            "id": "e69bd81",
+                            "settings": {
+                                "_title": "Craft story",
+                                "content_width": "full",
+                                "flex_direction": "row",
+                                "flex_gap": {
+                                    "unit": "px",
+                                    "column": "70",
+                                    "row": "32",
+                                    "isLinked": false
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": true
+                                },
+                                "flex_direction_mobile": "column",
+                                "flex_align_items": "stretch"
+                            },
+                            "elements": [
+                                {
+                                    "id": "170738a6",
+                                    "settings": {
+                                        "_title": "Manifesto",
+                                        "content_width": "full",
+                                        "flex_direction": "column",
+                                        "flex_gap": {
+                                            "unit": "px",
+                                            "row": "20",
+                                            "column": "20",
+                                            "isLinked": true
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": true
+                                        },
+                                        "width": {
+                                            "unit": "%",
+                                            "size": 50,
+                                            "sizes": []
+                                        },
+                                        "width_mobile": {
+                                            "unit": "%",
+                                            "size": 100,
+                                            "sizes": []
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "29dc2635",
+                                            "settings": {
+                                                "_title": "THE ART OF RESTRAINT",
+                                                "title": "THE ART OF RESTRAINT",
+                                                "header_size": "p",
+                                                "title_color": "#41483E",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "700",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.4,
+                                                    "sizes": []
+                                                },
+                                                "typography_letter_spacing": {
+                                                    "unit": "px",
+                                                    "size": 1.5,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "63db0317",
+                                            "settings": {
+                                                "_title": "Good design knows<br>what to leave out.",
+                                                "title": "Good design knows<br>what to leave out.",
+                                                "title_color": "#22281F",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Georgia",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 55,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.08,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 38,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "35a91bcb",
+                                            "settings": {
+                                                "_title": "Body copy",
+                                                "editor": "<p>Form, texture and a little room to breathe. A collection built around the way you move through your day.</p>",
+                                                "text_color": "#41483E",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 18,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.55,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "container"
+                                },
+                                {
+                                    "id": "66a10d50",
+                                    "settings": {
+                                        "_title": "Design notes",
+                                        "content_width": "full",
+                                        "flex_direction": "column",
+                                        "flex_gap": {
+                                            "unit": "px",
+                                            "row": "20",
+                                            "column": "20",
+                                            "isLinked": true
+                                        },
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": true
+                                        },
+                                        "width": {
+                                            "unit": "%",
+                                            "size": 50,
+                                            "sizes": []
+                                        },
+                                        "width_mobile": {
+                                            "unit": "%",
+                                            "size": 100,
+                                            "sizes": []
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "4ec7d019",
+                                            "settings": {
+                                                "_title": "Soft structure",
+                                                "title": "Soft structure",
+                                                "header_size": "h3",
+                                                "title_color": "#22281F",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Georgia",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 26,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.08,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 26,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "2f0cc7f2",
+                                            "settings": {
+                                                "_title": "Body copy",
+                                                "editor": "<p>Curved silhouettes and generous openings put daily use first.</p>",
+                                                "text_color": "#41483E",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 17,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.55,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "4d911c0a",
+                                            "settings": {
+                                                "_title": "A palette that stays",
+                                                "title": "A palette that stays",
+                                                "header_size": "h3",
+                                                "title_color": "#22281F",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Georgia",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 26,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.08,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 26,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "579fba26",
+                                            "settings": {
+                                                "_title": "Body copy",
+                                                "editor": "<p>Espresso, sand and cognac complement the pieces already in your wardrobe.</p>",
+                                                "text_color": "#41483E",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 17,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.55,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "8fc211a",
+                                            "settings": {
+                                                "_title": "Care, made simple",
+                                                "title": "Care, made simple",
+                                                "header_size": "h3",
+                                                "title_color": "#22281F",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Georgia",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 26,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.08,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 26,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "5d14a484",
+                                            "settings": {
+                                                "_title": "Body copy",
+                                                "editor": "<p>Store in a dust bag between outings. Keep away from prolonged moisture and direct heat.</p>",
+                                                "text_color": "#41483E",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Arial",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 17,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "400",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1.55,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "container"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        },
+        {
+            "id": "20b52b86",
+            "settings": {
+                "_title": "Footer",
+                "flex_direction": "column",
+                "flex_gap": {
+                    "unit": "px",
+                    "row": "20",
+                    "column": "20",
+                    "isLinked": true
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "36",
+                    "right": "32",
+                    "bottom": "36",
+                    "left": "32",
+                    "isLinked": false
+                },
+                "boxed_width": {
+                    "unit": "px",
+                    "size": 1180,
+                    "sizes": []
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "42",
+                    "right": "20",
+                    "bottom": "42",
+                    "left": "20",
+                    "isLinked": false
+                },
+                "html_tag": "footer",
+                "background_background": "classic",
+                "background_color": "#E8EBE5"
+            },
+            "elements": [
+                {
+                    "id": "23000d69",
+                    "settings": {
+                        "_title": "VALE / Objects for every day",
+                        "title": "VALE / Objects for every day",
+                        "header_size": "p",
+                        "title_color": "#22281F",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Georgia",
+                        "typography_font_size": {
+                            "unit": "px",
+                            "size": 26,
+                            "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "typography_line_height": {
+                            "unit": "em",
+                            "size": 1.08,
+                            "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                            "unit": "px",
+                            "size": 26,
+                            "sizes": []
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "heading",
+                    "elType": "widget"
+                },
+                {
+                    "id": "73d90935",
+                    "settings": {
+                        "_title": "Back to portfolio",
+                        "text": "Back to portfolio",
+                        "link": {
+                            "url": "https://jasoncortese.github.io/shopify-portfolio/wordpress/"
+                        },
+                        "button_text_color": "#FFF",
+                        "background_color": "#26372A",
+                        "hover_color": "#FFF",
+                        "button_background_hover_color": "#26372A",
+                        "border_radius": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": true
+                        },
+                        "text_padding": {
+                            "unit": "px",
+                            "top": "17",
+                            "right": "25",
+                            "bottom": "17",
+                            "left": "25",
+                            "isLinked": false
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_family": "Arial",
+                        "typography_font_size": {
+                            "unit": "px",
+                            "size": 16,
+                            "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "typography_line_height": {
+                            "unit": "em",
+                            "size": 1.2,
+                            "sizes": []
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "button",
+                    "elType": "widget"
+                },
+                {
+                    "id": "13dc6dce",
+                    "settings": {
+                        "_title": "Portfolio disclosure",
+                        "editor": "<p>Independent portfolio concept by Jason Cortese. Fictional brand, products and prices; AI-generated photography. No orders or payments are taken.</p>",
+                        "text_color": "#41483E",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Arial",
+                        "typography_font_size": {
+                            "unit": "px",
+                            "size": 14,
+                            "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "typography_line_height": {
+                            "unit": "em",
+                            "size": 1.55,
+                            "sizes": []
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "text-editor",
+                    "elType": "widget"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        }
+    ],
+    "page_settings": {
+        "template": "elementor_canvas",
+        "hide_title": "yes",
+        "background_background": "classic",
+        "background_color": "#F7F6F1"
+    },
+    "version": "0.4",
+    "title": "VALE \u2014 Editable Elementor collection",
+    "type": "page"
+}

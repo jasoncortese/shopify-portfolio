@@ -1,0 +1,62 @@
+[
+  {
+    "page": "index.html",
+    "width": 390,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "page": "index.html",
+    "width": 1440,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "page": "vale.html",
+    "width": 390,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "page": "vale.html",
+    "width": 1440,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "page": "tether.html",
+    "width": 390,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "page": "tether.html",
+    "width": 1440,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "page": "editor-guide.html",
+    "width": 390,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "page": "editor-guide.html",
+    "width": 1440,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "page": "verification.html",
+    "width": 390,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "page": "verification.html",
+    "width": 1440,
+    "overflow": false,
+    "violations": []
+  }
+]
